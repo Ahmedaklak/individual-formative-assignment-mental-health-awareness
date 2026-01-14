@@ -22,7 +22,7 @@ main {
 /* Hero Section */
 
 #hero {
-    height: 600px;
+    height: 800px;
     width: 100%;
-    background-color: green;
+    background: center / cover no-repeat url(../images/hero-image.webp);
 }
