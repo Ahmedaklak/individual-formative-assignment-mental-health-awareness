@@ -1,0 +1,13 @@
+/* make scrolling smoother */
+html {
+  scroll-behavior: smooth;
+}
+/*Increase line spacing to make reading smoother*/
+body {
+  line-height: 1.6;
+}
+
+/* Prevent sticky navbar from covering section headings*/
+section {
+  scroll-margin-top: var(--nav-offset);
+}
