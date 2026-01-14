@@ -171,6 +171,8 @@ Add a footer with credits, disclaimer, and quick links.
 
 Credits
 
+All pictures and logo were created using AI
+
 Built by: Ahmed Aklak (project work and implementation)
 
 Framework: Bootstrap 5
