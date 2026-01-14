@@ -40,7 +40,7 @@
           <a class="nav-link" href="#resources">Resources</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#affirmations">Affirmations</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -50,12 +50,11 @@
 <main>
 
   <!-- HOME: Hero / introduction section (navbar link: #hero) -->
-<!-- HOME: Hero / introduction section (navbar link: #hero) -->
 <section id="hero" class="py-5 text-white">
   <div class="container">
     <div class="row align-items-center min-vh-50">
       <div class="col-12 col-lg-7">
-        <!--Wrap hero content so it is visible over the background-image-->
+        <!--Wrap hero content so it is visible over the background image -->
         <div class="p-4 rounded bg-dark bg-opacity-50">
 
         <h1 class="display-4 fw-semibold mb-3">MindCompass</h1>
@@ -403,6 +402,78 @@
     </div>
   </div>
 </section>
+<!-- CONTACT / FORM SECTION -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+
+        <h2 class="mb-3">Contact</h2>
+        <p class="text-secondary mb-4">
+          Send a message and I’ll get back to you as soon as possible.
+        </p>
+
+        <form class="needs-validation" novalidate action="#" method="post">
+          <div class="row g-3">
+
+            <!-- Name -->
+            <div class="col-md-6">
+              <label for="fullName" class="form-label">Full name</label>
+              <input type="text" class="form-control" id="fullName" name="fullName" required>
+              <div class="invalid-feedback">Please enter your name.</div>
+            </div>
+
+            <!-- Email -->
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+              <div class="invalid-feedback">Please enter a valid email.</div>
+            </div>
+
+            <!-- Topic -->
+            <div class="col-12">
+              <label for="topic" class="form-label">Topic</label>
+              <select class="form-select" id="topic" name="topic" required>
+                <option value="" selected disabled>Choose one</option>
+                <option value="general">General question</option>
+                <option value="feedback">Feedback</option>
+                <option value="resources">Resources suggestion</option>
+              </select>
+              <div class="invalid-feedback">Please choose a topic.</div>
+            </div>
+
+            <!-- Message -->
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+              <div class="invalid-feedback">Please write a message.</div>
+            </div>
+
+            <!-- Consent -->
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="yes" id="consent" required>
+                <label class="form-check-label" for="consent">
+                  I understand this site is educational and not medical advice.
+                </label>
+                <div class="invalid-feedback">You must confirm before submitting.</div>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="col-12 d-flex gap-2">
+              <button type="submit" class="btn btn-primary">Send message</button>
+              <button type="reset" class="btn btn-outline-secondary">Clear</button>
+            </div>
+
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+
 
 </main>
 
