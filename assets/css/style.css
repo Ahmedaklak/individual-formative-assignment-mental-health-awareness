@@ -11,3 +11,18 @@ body {
 section {
   scroll-margin-top: var(--nav-offset);
 }
+
+/* main section*/
+main {
+    /*Make main Element take surplus space to push footer down*/
+    flex: 1 0 auto;
+    margin-top: 0;
+}
+
+/* Hero Section */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background-color: green;
+}
